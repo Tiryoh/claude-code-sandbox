@@ -56,7 +56,8 @@ jobs:
             Bash(git:*),
             View,GlobTool,GrepTool,BatchTool,
             mcp__github__create_pull_request,
-            mcp__github__create_issue
+            mcp__github__create_issue,
+            mcp__github__get_file_contents
           
           # Optional: Add custom instructions for Claude to customize its behavior for your project
           custom_instructions: |
